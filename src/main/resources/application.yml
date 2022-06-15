@@ -1,0 +1,14 @@
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5671
+    username: root
+    password: root
+  multirabbitmq:
+    enabled: true
+    connections:
+      broker2:
+        host: localhost
+        port: 5672
+        username: root
+        password: root
